@@ -1,0 +1,5 @@
+2016-12-20 17:39:02.5733|GlobalExcetionDemo.Controllers.HomeController|INFO|  123123 
+2016-12-20 17:39:30.7270|GlobalExcetionDemo.YourCustomFilter|ERROR|  System.Exception: global exception
+   at GlobalExcetionDemo.Controllers.HomeController.Index() in C:\Users\qxwxi\Documents\Visual Studio 2015\Projects\GlobalExcetionDemo\src\GlobalExcetionDemo\Controllers\HomeController.cs:line 19
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext() 

@@ -1,0 +1,43 @@
+2016-12-20 17:39:02.5533|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:51556/   
+2016-12-20 17:39:02.5613|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2016-12-20 17:39:02.5613|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2016-12-20 17:39:02.5613|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo) 
+2016-12-20 17:39:02.5733|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo) with arguments () - ModelState is Valid 
+2016-12-20 17:39:02.5733|GlobalExcetionDemo.Controllers.HomeController|INFO|123123 
+2016-12-20 17:39:02.5873|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executed action method GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo), returned result Microsoft.AspNetCore.Mvc.ViewResult. 
+2016-12-20 17:39:02.5873|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view 'Index' in controller 'Home'. 
+2016-12-20 17:39:02.5873|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|DEBUG|The view 'Index' was found. 
+2016-12-20 17:39:02.6043|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2016-12-20 17:39:02.6043|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|DEBUG|View lookup cache hit for view '_Layout' in controller 'Home'. 
+2016-12-20 17:39:02.6183|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo) in 45.4212ms 
+2016-12-20 17:39:02.6394|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 85.5461ms 200 text/html; charset=utf-8 
+2016-12-20 17:39:02.6584|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NFUTEAS3" completed keep alive response. 
+2016-12-20 17:39:27.3086|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting starting 
+2016-12-20 17:39:27.4517|Microsoft.AspNetCore.Hosting.Internal.WebHost|DEBUG|Hosting started 
+2016-12-20 17:39:27.6693|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" started. 
+2016-12-20 17:39:27.6693|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" started. 
+2016-12-20 17:39:27.7764|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 DEBUG http://localhost:51556/  0 
+2016-12-20 17:39:27.7764|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:51556/   
+2016-12-20 17:39:27.8464|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 88.315ms 200  
+2016-12-20 17:39:27.8784|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|DEBUG|The request path / does not match a supported file type 
+2016-12-20 17:39:27.8995|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" completed keep alive response. 
+2016-12-20 17:39:28.0205|Microsoft.AspNetCore.Routing.RouteBase|DEBUG|Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'. 
+2016-12-20 17:39:28.1076|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|DEBUG|Executing action GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo) 
+2016-12-20 17:39:28.1817|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method GlobalExcetionDemo.Controllers.HomeController.Index (GlobalExcetionDemo) with arguments () - ModelState is Valid 
+2016-12-20 17:39:30.7270|GlobalExcetionDemo.YourCustomFilter|ERROR|System.Exception: global exception
+   at GlobalExcetionDemo.Controllers.HomeController.Index() in C:\Users\qxwxi\Documents\Visual Studio 2015\Projects\GlobalExcetionDemo\src\GlobalExcetionDemo\Controllers\HomeController.cs:line 19
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext() 
+2016-12-20 17:39:30.8361|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|ERROR|An unhandled exception has occurred while executing the request global exception
+2016-12-20 17:39:30.9962|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 3244.9849ms 500 text/html; charset=utf-8 
+2016-12-20 17:39:31.0083|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" completed keep alive response. 
+2016-12-20 17:41:17.6543|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" received FIN. 
+2016-12-20 17:41:17.6543|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" received FIN. 
+2016-12-20 17:41:17.6793|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" disconnecting. 
+2016-12-20 17:41:17.6793|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" disconnecting. 
+2016-12-20 17:41:17.7075|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" sending FIN. 
+2016-12-20 17:41:17.7135|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" sending FIN. 
+2016-12-20 17:41:17.7135|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" sent FIN with status "0". 
+2016-12-20 17:41:17.7135|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" sent FIN with status "0". 
+2016-12-20 17:41:17.7335|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUE" stopped. 
+2016-12-20 17:41:17.7335|Microsoft.AspNetCore.Server.Kestrel|DEBUG|Connection id "0HL18NGBLDMUD" stopped. 
